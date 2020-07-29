@@ -3,12 +3,16 @@
   cursor: pointer;
 }
 
-.Bar1,
-.Bar2,
-.Bar3 {
+.Container div {
   width: 35px;
   height: 5px;
-  background-color: #333;
+  background-color: #fff;
   margin: 6px 0;
   transition: 0.4s;
+}
+
+@media (min-width: 500px) {
+  .Container {
+    display: none;
+  }
 }
